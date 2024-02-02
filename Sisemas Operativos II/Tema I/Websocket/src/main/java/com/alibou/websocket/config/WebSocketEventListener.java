@@ -1,5 +1,6 @@
 package com.alibou.websocket.config;
 
+// IMPORT THE NEEDED LIBRARIES
 import com.alibou.websocket.chat.ChatMessage;
 import com.alibou.websocket.chat.MessageType;
 import lombok.RequiredArgsConstructor;
@@ -18,15 +19,19 @@ public class WebSocketEventListener {
     private final SimpMessageSendingOperations messagingTemplate;
 
     @EventListener
+    // USERNAME AUTENTICATION
     public void handleWebSocketDisconnectListener(SessionDisconnectEvent event) {
         StompHeaderAccessor headerAccessor = StompHeaderAccessor.wrap(event.getMessage());
+        // SET USERNAME TO STRING ACCESSOR
         String username = (String) headerAccessor.getSessionAttributes().get("username");
         if (username != null) {
-            log.info("user disconnected: {}", username);
+            // FOR THE USERNAME ARE DISCONECTED
+            log.info("Usuario desconectado: {}", username);
             var chatMessage = ChatMessage.builder()
                     .type(MessageType.LEAVE)
                     .sender(username)
                     .build();
+            // PUBLISH THE MESSAGGE ON THE SERVER
             messagingTemplate.convertAndSend("/topic/public", chatMessage);
         }
     }
