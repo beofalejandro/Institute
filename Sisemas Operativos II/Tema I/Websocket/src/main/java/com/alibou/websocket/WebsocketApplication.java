@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WebsocketApplication {
 
-	// DEPLOY TH WEBSOCKET SERVER
+	// DEPLOY THE WEBSOCKET SERVER
 	public static void main(String[] args) {
 		SpringApplication.run(WebsocketApplication.class, args);
 	}
