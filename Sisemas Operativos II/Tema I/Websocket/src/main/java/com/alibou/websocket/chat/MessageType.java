@@ -1,11 +1,22 @@
 package com.alibou.websocket.chat;
 
+/**
+ * Representa los posibles tipos de mensajes que se pueden enviar en el chat.
+ */
 public enum MessageType {
 
-    // MESSAGE TYPE FOR A REGULAR CHAT MESSAGE.
+    /**
+     * Indica un mensaje de chat regular, que contiene contenido para ser compartido entre los usuarios.
+     */
     CHAT,
-    // MESSAGE WHEN FOR A USER JOINING THE CHAT ROOM.
+
+    /**
+     * Indica un mensaje cuando un usuario se une a la sala de chat, informando a otros usuarios de su llegada.
+     */
     JOIN,
-    // MESSAGE WHEN FOR A USER LEAVING THE CHAT ROOM.
-    LEAVE
+
+    /**
+     * Indica un mensaje cuando un usuario abandona la sala de chat, informando a otros usuarios de su partida.
+     */
+    LEAVE;
 }

@@ -1,13 +1,27 @@
 package com.alibou.websocket.chat;
 
 import lombok.*;
-
-@Getter @Setter // Automatically generates getters and setters for all fields
-@AllArgsConstructor // Generates a constructor with all fields as arguments
-@NoArgsConstructor // Generates a no-argument constructor
-@Builder // Enables builder pattern for flexible object creation
+/**
+ * Representa un mensaje de chat con su tipo, contenido y emisor.
+ */
+@Getter @Setter // Genera automáticamente métodos getter y setter para todos los campos
+@AllArgsConstructor // Genera un constructor con todos los campos como argumentos
+@NoArgsConstructor // Genera un constructor sin argumentos
+@Builder // Habilita el patrón de construcción para crear objetos de manera flexible
 public class ChatMessage {
+
+    /**
+     * El tipo del mensaje (por ejemplo, CHAT, JOIN, LEAVE).
+     */
     private MessageType type;
+
+    /**
+     * El contenido textual del mensaje.
+     */
     private String content;
+
+    /**
+     * El nombre del usuario que envió el mensaje.
+     */
     private String sender;
 }
