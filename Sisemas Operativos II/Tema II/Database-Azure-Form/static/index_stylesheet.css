@@ -8,7 +8,7 @@
 }
 
 body {
-  color: #FFF;
+  color: #fff;
   height: 145vh;
   position: relative;
   background-size: cover;
@@ -19,30 +19,43 @@ body {
 }
 
 main {
-    margin: 4% 10%;
-    padding: 2%;
-    background-color: #212121;
-    border: 1px solid #777;
-    border-radius: 5px;
-    text-align: center;
+  margin: 4% 10%;
+  padding: 1%;
+  background-color: #212121;
+  border: 1px solid #666;
+  border-radius: 5px;
+  text-align: center;
+} 
+
+main h1 {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form {
+  margin: 10px 0 0 0;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 input {
-    padding: 5px 10px;
-    margin: 5px 0;
-    color: #FFF;
-    background-color: #151515;
-    border: 1px solid #777;
-    border-radius: 3px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #fff;
+  background-color: #151515;
+  border: 1px solid #666;
+  border-radius: 3px;
 }
 
 #submit {
-    padding: 7px 15px;
-    margin: 10px 0;
+  padding: 7px 15px;
+  margin: 10px 0;
 }
 
 #submit:hover {
-    background-color: #DB162F;
-    color: #000;
-    transition: 0.3s;
+  background-color: #db162f;
+  color: #000;
+  transition: 0.3s;
 }
