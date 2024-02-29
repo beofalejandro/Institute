@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Century Gothic", Arial;
+  text-decoration: none;
+}
+
+body {
+  color: #FFF;
+  height: 145vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.5s;
+  background-color: #151515;
+}
+
+main {
+    margin: 4% 10%;
+    padding: 2%;
+    background-color: #212121;
+    border: 1px solid #777;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    padding: 5px 10px;
+    margin: 5px 0;
+    color: #FFF;
+    background-color: #151515;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+
+#submit {
+    padding: 7px 15px;
+    margin: 10px 0;
+}
+
+#submit:hover {
+    background-color: #DB162F;
+    color: #000;
+    transition: 0.3s;
+}

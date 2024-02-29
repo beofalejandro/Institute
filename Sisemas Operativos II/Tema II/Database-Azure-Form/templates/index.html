@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href=" {{url_for('static', filename='index_stylesheet.css')}} " />
+</head>
+
+<body>
+    <main class="form_container">
+        <h1>Formulario</h1>
+        <form action="/submit" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+            <label for="telefono">Email:</label>
+            <input type="text" name="telefono" id="telefono">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="text" name="edad" id="edad">
+            <br>
+            <label for="semestre">Semestre:</label>
+            <input type="text" name="semestre" id="semestre">
+            <br>
+            <input type="submit" value="Enviar a azure" id="submit">
+        </form>
+    </main>
+</body>
+
+</html>
