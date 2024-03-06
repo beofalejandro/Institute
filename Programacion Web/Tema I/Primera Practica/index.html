@@ -2,30 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Barrientos Escalante</title>
-    <link rel="stylesheet" href="stylesheets/index_stylesheets.css">
-    <link rel="stylesheet" href="stylesheets/main_stylesheets.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Principal | ESCALIA Site</title>
+    <link rel="stylesheet" href="stylesheets/index_stylesheets.css" />
+    <link rel="stylesheet" href="stylesheets/main_stylesheets.css" />
+    <link rel="Icon" href="library/logotype_resourses/ESCALIA/ESCALIALogoCA.svg" />
+    <script src="scripts/libaries/scrollreveal.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <ul class="menu">
-                <li><button class="header-button">Acerca de</button></li>
-            </ul>
-        </div>
+    <!-- HEADER -->
+    <header id="header">
+        <h2 class="logo">LINGARD</h2>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="library/logotype_resourses/others/menu.svg" class="menu-icono" alt="" />
+        </label>
+        <ul class="menu">
+            <li class="item">
+                <a class="link" href="proyects.html">
+                    <button class="header-link">Proyectos</button></a>
+            </li>
+            <li class="item">
+                <a class="link" href="institute.html">
+                    <button class="header-link">ITSOEH</button></a>
+            </li>
+            <li class="item">
+                <a class="link" href="laboratory.html">
+                    <button class="header-link">Lab</button></a>
+            </li>
+            <li class="item">
+                <a class="link" href="about.html">
+                    <button class="header-link">Acerca de</button></a>
+            </li>
+        </ul>
     </header>
 
-    <main class="index">
-        <div class="titles">
-            <h1>Bienvenido a la practica del tema 1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia nobis amet dolores consequuntur
-                obcaecati corporis veritatis deleniti incidunt. Doloribus eveniet aspernatur neque accusamus minima hic
-                esse sapiente recusandae eum!</p>
+    <!-- CONTENT -->
+    <section class="index_title">
+        <div class="ind_tit-container">
+            <div class="tit-content">
+                <h1>ALL MY PROYECTS ON ONE PLACE</h1>
+
+            </div>
         </div>
+    </section>
+
+    <main class="content">
+        <section class="index-content">
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis ab doloribus dolores tempore aut, velit
+                incidunt quam nemo nulla eveniet delectus perspiciatis possimus, repellendus distinctio, accusamus
+                blanditiis. Cumque, voluptas eligendi.
+
+                <div class="controls">
+                    <button class="button">Conoce mas</button>
+                </div>
+            </div>
+            <div class="picture">
+                <figure>
+                    <img src="library/pexels-jamaal-hutchinson-18696919.jpg" class="index-logo" alt="">
+                </figure>
+            </div>
+        </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="about-me">
+            <div class="media-links">
+                <div class="social-link">
+                    <a href="https://www.facebook.com/beofalejandro">
+                        <img src="library/logotype_resourses/footer/facebook-logo.svg" class="social-logo" alt=""></a>
+                </div>
+                <div class="social-link">
+                    <a href="https://www.instagram.com/beofalejandro/">
+                        <img src="library/logotype_resourses/footer/instagram-logo.svg" class="social-logo" alt=""></a>
+                </div>
+                <div class="social-link">
+                    <a href="https://github.com/beofalejandro/ESCALIA">
+                        <img src="library/logotype_resourses/footer/github-logo.svg" class="social-logo" alt=""></a>
+                </div>
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/beofalejandro/">
+                        <img src="library/logotype_resourses/footer/linkedin-logo.svg" class="social-logo" alt=""></a>
+                </div>
+            </div>
+            <figure class="f-logo">
+                <a href="#">
+                    <img class="foot-logo" src="library/logotype_resourses/ESCALIA/ESCALIALogo.svg"
+                        alt="ESCALIA Logo" />
+                </a>
+            </figure>
+        </div>
+        <div class="privacy-info">
+            <div class="rules">
+                <ul>
+                    <li>Politicas de Seguridad</li>
+                    <li>Condiciones de Uso</li>
+                    <li>Marcas Registradas</li>
+                </ul>
+            </div>
+            <div class="credits">
+                <p>&copy; ESCALIA 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/index.js"></script>
+
 </body>
 
 </html>

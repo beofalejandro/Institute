@@ -1,3 +1,111 @@
-.titles p {
-    padding: 20px 0;
+body {
+  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%),
+    url(../library/pictures/background/index_bg.jpg);
+  background-position: center;
+  color: #000;
+}
+
+.header-link {
+  color: #fff;
+}
+
+.header-link:hover {
+  color: #a4031f;
+}
+
+.content {
+  background-color: #e4dfda;
+  padding: 20px 50px;
+}
+
+.index_title {
+  height: 400px;
+}
+
+.ind_tit-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 300px 30px;
+}
+
+.tit-content h1 {
+  padding: 0 0 5px 0;
+  font-size: 34px;
+}
+
+.tit-content h1:hover {
+  color: #a4031f;
+  transition: 0.5s;
+}
+
+.description {
+  width: 50%;
+  text-align: center;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.index-content {
+  display: flex;
+}
+
+.picture {
+  width: 50%;
+}
+
+.index-logo {
+  width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .ind_tit-container {
+    padding: 220px 0 0 0;
+    margin: 0 30px;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .cards-content {
+    text-align: center;
+  }
+
+  .longest-cards {
+    margin: 10px 25px;
+    height: auto;
+    display: inline-block;
+  }
+
+  .lon_card-picture {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lon_card-content {
+    padding: 0;
+  }
+
+  .color-palette {
+    margin: 10px 25px;
+    padding: 0 20px;
+  }
+
+  .col-pal-content {
+    margin: 30px;
+    display: inline;
+  }
+
+  .color {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
