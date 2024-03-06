@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #F6F4F3;
   background-size: cover;
   transition: background-color 0.2s ease-in-out;
   z-index: 1;
@@ -29,7 +30,6 @@ header {
 
 /* --- BODY STYLES --- */
 body {
-  height: 145vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -106,7 +106,6 @@ button.button {
 /* --- FOOTER ATRIBUTES --- */
 footer {
   padding: 8px 20px;
-  background-color: #212121; /* BETA CAN BE DELETED */
 }
 
 footer .about-me {
