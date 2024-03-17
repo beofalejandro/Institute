@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.DEBUG)
 app = Flask(__name__)
 
 # Credenciales de Azure
-server = 'escalia.database.windows.net'
+server = 'escaliav2.database.windows.net'
 database = 'ESCALIA-Database'
 username = 'escalia'
 password = 'EF78E13306a'
