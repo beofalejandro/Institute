@@ -24,14 +24,6 @@
                 <a class="link">
                     <button class="header-link" style="color: #a4031f; cursor: default;">INICIO</button></a>
             </li>
-            <li class="item">
-                <a class="link" href="institute.html">
-                    <button class="header-link">PROYECTOS</button></a>
-            </li>
-            <li class="item">
-                <a class="link" href="about.html">
-                    <button class="header-link">ACERCA DE</button></a>
-            </li>
         </ul>
     </header>
 
@@ -67,24 +59,52 @@
             </div>
         </section>
 
-        <section>
+        <section class="m_v_container">
             <h2>Mision y Vision</h2>
-
-            <div class="mision">
-                <h2>Mision</h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore qui, laudantium, facere optio, rerum
-                doloribus voluptatibus architecto enim nesciunt rem iste quae? Officia quod placeat neque iusto mollitia
-                ipsum modi?
-            </div>
-            <div class="vision">
-                <h2>Mision</h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore qui, laudantium, facere optio, rerum
-                doloribus voluptatibus architecto enim nesciunt rem iste quae? Officia quod placeat neque iusto mollitia
-                ipsum modi?
+            <div class="mision_vision">
+                <div class="m_v_content" id="mision">
+                    <h2>Misión</h2>
+                    Proveer soluciones de software de alta calidad que impulsen
+                    la productividad y el crecimiento de nuestros clientes.
+                    Nos comprometemos a entender profundamente las necesidades
+                    de nuestros clientes y a entregar soluciones que sean fáciles
+                    de usar, eficientes y seguras.
+                </div>
+                <div class="m_v_content" id="vision">
+                    <h2>Visión</h2>
+                    Ser reconocidos como el proveedor líder de soluciones de
+                    software, destacando por nuestra innovación, calidad y
+                    servicio al cliente. Aspiramos a ser la primera opción
+                    para los clientes en busca de software que les permita
+                    alcanzar sus objetivos de manera más efectiva y eficiente.
+                </div>
             </div>
         </section>
-        <section>
-
+        <section class="gios_content">
+            <div class="container">
+                <h1>Contactanos</h1>
+                <form id="reservation-form">
+                    <label for="band-name">Nombre:</label>
+                    <input type="text" id="band-name" required>
+                    <label for="event-date">Fecha requerida:</label>
+                    <input type="date" id="event-date" required>
+                    <label for="contact-email">Correo de Contacto:</label>
+                    <input type="email" id="contact-email" required>
+                    <label for="additional-comments">Comentarios Adicionales:</label>
+                    <textarea id="additional-comments" rows="4"></textarea>
+                    <button type="submit">Contactar Ahora</button>
+                </form>
+            </div>
+            <script>
+                document.getElementById("reservation-form").addEventListener("submit", function (event) {
+                    event.preventDefault();
+                    const bandName = document.getElementById("band-name").value;
+                    const eventDate = document.getElementById("event-date").value;
+                    const contactEmail = document.getElementById("contact-email").value;
+                    const additionalComments = document.getElementById("additional-comments").value;
+                    alert(`Nombre:\\nNombre: ${bandName}\\nFecha requerida: ${eventDate}\\nCorreo de Contacto: ${contactEmail}\\nComentarios Adicionales: ${additionalComments}`);
+                });
+            </script>
         </section>
     </main>
 
