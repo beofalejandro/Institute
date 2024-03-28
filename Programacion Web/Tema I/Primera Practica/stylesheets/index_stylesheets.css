@@ -20,7 +20,7 @@ body {
 }
 
 .index_title {
-  height: 500px;
+  height: 600px;
   color: #fff;
 }
 
@@ -32,8 +32,8 @@ body {
 }
 
 .tit-content h1 {
-  padding: 0 0 5px 0;
-  font-size: 34px;
+  padding: 30px 40px;
+  font-size: 36px;
 }
 
 .description {
@@ -82,7 +82,7 @@ body {
 }
 
 .gios_content .container {
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f6f4f3;
@@ -109,17 +109,51 @@ body {
   border-radius: 5px;
 }
 
-.gios_content button {
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+.other_products {
+  padding: 2%;
+  background-color: #212121;
+  color: #fff;
+  border-radius: 10px;
 }
 
-.gios_content button:hover {
-  background-color: #0056b3;
+.ot_pro_content {
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.ot_pro_description h2 {
+  width: 350px;
+  display: flex;
+  margin: 1% 0;
+  padding: 10px;
+  background: linear-gradient(120deg, red, blue);
+  background-size: 700px 130px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: default;
+}
+
+.ot_pro_description h2:hover {
+  background: rgb(1, 1, 66);
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+
+.text_gradient {
+  font-weight: bolder;
+  background: linear-gradient(120deg, #ff58db, rgb(53, 255, 221));
+  background-size: 300px 100px;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new_content {
+  display: flex;
+  gap: 30px;
 }
 
 footer {
@@ -130,10 +164,10 @@ footer {
 
 @media screen and (max-width: 800px) {
   .ind_tit-container {
+    width: 100%;
     padding: 220px 0 0 0;
-    margin: 0 30px;
+    margin: 0;
     text-align: center;
-    margin: 0 15px;
   }
 
   .index-content {
@@ -145,12 +179,26 @@ footer {
     padding: 10px;
     text-align: center;
   }
-  
+
   .picture {
     width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    display: inline;
+    text-align: center;
   }
-  
+
+  .new_content {
+    display: inline;
+  }
+
+  .mision_vision {
+    display: inline;
+  }
+
+  .mision_vision .m_v_content {
+    width: 100%;
+  }
+
+  .ot_pro_description h2 {
+    width: 330px;
+  }
 }
