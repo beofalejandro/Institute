@@ -87,9 +87,161 @@
             </div>
         </section>
 
+        <section class="exercise">
+            <h1>Ejercicios de Javascript</h1>
+            <br>
+            <div class="exercise-container">
+                <p id="demo1">Click the button to display the cookies associated with this document.</p>
+
+                <button class="button" onclick="myFunction()">Try it</button>
+            </div>
+            <div class="exercise-container">
+                <h2>Finding HTML Elements Using document.anchors</h2>
+
+                <a name="html">HTML Tutorial</a><br>
+                <a name="css">CSS Tutorial</a><br>
+                <a name="xml">XML Tutorial</a><br>
+
+                <p id="demo2"></p>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>Finding HTML Elements Using document.links</h2>
+
+                    <p>
+                        <a href="/html/default.asp">HTML</a>
+                        <br>
+                        <a href="/css/default.asp">CSS</a>
+                    </p>
+
+                    <p id="demo3"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>Finding HTML Elements Using document.forms</h2>
+
+                    <form action="">
+                        First name:
+                        <input type="text" name="fname" value="Donald">
+                        <button class="button" type="submit" value="Submit">
+                    </form>
+
+                    <p id="demo4"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>Finding HTML Elements Using document.images</h2>
+
+                    <img src="../Primera Practica/library/pexels-altamar-20117149.jpg" width="400">
+                    <img src="../Primera Practica/library/pexels-altamar-20117149.jpg" width="400">
+
+                    <p id="demo5"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form>
+                        <input type="button" id="btn01" value="OK">
+                    </form>
+
+                    <p>Click the "Disable" button to disable the "OK" button:</p>
+
+                    <button class="button" onclick="disableElement()">Disable</button>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form id="frm1" action="/action_page.php">
+                        <button id="btn1" name="subject" type="submit" value="fav_HTML">HTML</button>
+                        <button id="btn2" name="subject" type="submit" value="fav_CSS">CSS</button>
+                    </form>
+
+                    <p>Click the "Try it" button to return the text on the "HTML" button:</p>
+
+                    <button class="button" onclick="myFunction1()">Try it</button>
+
+                    <p id="demo6"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form id="frm1" action="/action_page.php">
+                        First name: <input type="text" name="fname" value="Donald"><br>
+                        Last name: <input type="text" name="lname" value="Duck"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <p>Click "Try it" to display the value of each element in the form.</p>
+
+                    <button class="button" onclick="myFunction2()">Try it</button>
+
+                    <p id="demo7"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <p><a id="myAnchor" href="https://www.w3schools.com/">W3Schools</a></p>
+
+                    <p>Click the button to display the value of the href attribute of the link above.</p>
+
+                    <button class="button" onclick="myFunction3()">Try it</button>
+
+                    <p id="demo8"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <iframe id="myframe" src="demo_iframe.html">
+                        <p>Your browser does not support iframes.</p>
+                    </iframe>
+
+                    <p>Click the button to change the background color of the document in the iframe.</p>
+
+                    <p id="demo9"></p>
+
+                    <button class="button" onclick="myFunction4()">Try it</button>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <table id="myTable" border="1">
+                        <tr>
+                            <td>Row1 cell1</td>
+                            <td>Row1 cell2</td>
+                        </tr>
+                        <tr>
+                            <td>Row2 cell1</td>
+                            <td>Row2 cell2</td>
+                        </tr>
+                        <tr>
+                            <td>Row3 cell1</td>
+                            <td>Row3 cell2</td>
+                        </tr>
+                    </table>
+
+                    <p>
+                        <input class="button" type="button" onclick="changeContent('myTable', 0, 0, 'Hello')"
+                            value="Change content">
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
         <section class="other_products">
             <div class="ot_pro_content">
-                <h2>Notas de la version 0.23 × ESCALIA Studios & The Happy Bite Collection</h2>
+                <h2>Notas de la version 0.1.0 - Bas1C Update</h2>
                 <div class="ot_pro_description">
                     <h2>Actualización Marzo 2024</h2>
                     <br>
@@ -130,8 +282,14 @@
                         </figure>
                     </div>
                 </div>
+
+                <a href="https://beofalejandro.github.io/ESCALIA/about.html">
+                    <button id="ca-link-button">Conoce mas de <b>ESCALIA Studios</b></button>
+                </a>
             </div>
         </section>
+
+        <section></section>
 
         <section class="gios_content">
             <div class="container">

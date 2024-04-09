@@ -109,6 +109,23 @@ body {
   border-radius: 5px;
 }
 
+.exercise {
+  text-align: center;
+}
+
+.exercise-container {
+  margin: 25px 70px;
+  padding: 3%;
+  text-align: center;
+  background-color: #212121;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.exercise-container > h2 {
+  padding: 0 0 20px;
+}
+
 .other_products {
   padding: 2%;
   background-color: #212121;
@@ -154,6 +171,21 @@ body {
 .new_content {
   display: flex;
   gap: 30px;
+}
+
+#ca-link-button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid #999999;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#ca-link-button:hover {
+  background-color: rgb(1, 1, 66);
+  transition: 0.5s ease-in;
 }
 
 footer {
