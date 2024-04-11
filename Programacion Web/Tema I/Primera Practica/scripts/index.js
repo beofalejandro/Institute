@@ -9,6 +9,8 @@ document.getElementById("reservation-form").addEventListener("submit", function 
     alert(`Nombre: ${bandName}\nFecha requerida: ${eventDate}\nCorreo de Contacto: ${contactEmail}\nComentarios Adicionales: ${additionalComments}`);
 });
 
+
+// EXERCICES
 function myFunction() {
     document.getElementById("demo1").innerHTML =
         "Cookies associated with this document: " + document.cookie;
@@ -68,7 +70,6 @@ sr.reveal('.other_products', {
 });
 
 sr.reveal('.exercise-container', {
-    duration: 1500,
-    origin: 'bottom',
-    reset: 'true'
+    duration: 1000,
+    origin: 'bottom'
 });

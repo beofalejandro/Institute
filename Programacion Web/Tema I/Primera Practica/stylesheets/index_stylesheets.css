@@ -117,8 +117,8 @@ body {
   margin: 25px 70px;
   padding: 3%;
   text-align: center;
-  background-color: #212121;
-  color: #fff;
+  border: 1px solid #AAA;
+  color: #000;
   border-radius: 7px;
 }
 
