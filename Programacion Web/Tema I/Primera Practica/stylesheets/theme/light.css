@@ -1,0 +1,14 @@
+.header-light {
+  background-color: #f6f4f3;
+  transition: all 0.5s ease-in-out;
+}
+
+.body-light {
+  background-color: #151515;
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  background-color: #f6f4f3;
+  transition: all 0.5s ease-in-out;
+}
