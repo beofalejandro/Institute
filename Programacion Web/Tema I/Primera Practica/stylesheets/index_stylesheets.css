@@ -4,6 +4,10 @@ body {
   background-position: center;
 }
 
+ header {
+  background-color: #fff;
+ }
+
 .header-link {
   color: #000;
 }
@@ -22,6 +26,7 @@ body {
 
 .content {
   padding: 30px 40px;
+  background-color: #fff;
 }
 
 .index_title {
@@ -73,8 +78,11 @@ body {
   text-align: center;
 }
 
-.mision_vision {
+.m_v_container > div {
   display: flex;
+}
+
+.mision_vision {
   gap: 20px;
 }
 
@@ -221,7 +229,7 @@ body {
 
 footer {
   height: 100px;
-  background-color: #f6f4f3;
+  background-color: #fff;
   text-align: center;
 }
 

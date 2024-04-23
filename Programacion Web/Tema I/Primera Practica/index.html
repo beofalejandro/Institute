@@ -4,18 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina Principal | LINGARD × ESCALIA Studios</title>
+    <title>Proyects | LINGARD × ESCALIA Studios</title>
     <link rel="stylesheet" href="stylesheets/index_stylesheets.css" />
     <link rel="stylesheet" href="stylesheets/main_stylesheets.css" />
-    <link rel="stylesheet" href="stylesheets/theme/light.css">
-    <link rel="stylesheet" href="stylesheets/theme/dark.css">
     <link rel="Icon" href="library/logotype_resourses/ESCALIA/ESCALIALogoCA.svg" />
     <script src="scripts/libaries/scrollreveal.js"></script>
 </head>
 
-<body class="body-light">
+<body>
     <!-- HEADER -->
-    <header class="header-light" id="header">
+    <header id="header">
         <h2 class="logo">LINGARD</h2>
         <input type="checkbox" id="menu" />
         <label for="menu">
@@ -24,18 +22,7 @@
         <ul class="menu">
             <li class="item">
                 <a class="link">
-                    <button class="header-link" style="color: #a4031f; cursor: default;">INICIO</button></a>
-            </li>
-            <li class="item">
-                <a class="link" href="exercises.html">
-                    <button class="header-link">EJERCICIOS</button></a>
-            </li>
-            <li class="item">
-                <a class="mode" id="theme-mode">Tema (BETA)</a>
-                <div class="control_container" id="theme_toogle">
-                    <input type="checkbox" id="theme-mode" hidden>
-                    <label for="switch-mode" class="switch-mode"></label>
-                </div>
+                    <button class="header-link" style="color: #a4031f; cursor: default;">EJERCICIOS</button></a>
             </li>
         </ul>
     </header>
@@ -44,143 +31,166 @@
     <section class="index_title">
         <div class="ind_tit-container">
             <div class="tit-content">
-                <h1>LINGARD COLLECTION (BETA)</h1>
+                <h1>EJERCICIOS DE JAVASCRIPT</h1>
             </div>
         </div>
     </section>
 
-    <main class="content" id="content">
-        <section class="index-content">
-            <div class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aliquam veritatis et voluptates
-                accusamus aspernatur ducimus placeat? Ipsam quae cumque, voluptatum officia, repudiandae provident ipsa
-                quis laborum mollitia consequatur odit.
-                Commodi voluptas incidunt reiciendis odio, molestiae, dolorem vitae blanditiis ipsam voluptates,
-                exercitationem ex. Amet in sunt maxime ea iure. Non doloribus error libero beatae reiciendis.
+    <main class="content">
+        <!-- EXERCISE FROM JAVASCRIPT PROYECTS -->
+        <section class="exercise">
+            <div class="exercise-container">
+                <p id="demo1">Click the button to display the cookies associated with this document.</p>
 
-                <div class="controls">
-                    <button class="button">Conoce mas</button>
-                </div>
+                <button class="button" onclick="myFunction()">Try it</button>
             </div>
-            <div class="picture">
-                <figure>
-                    <img src="library/pexels-jamaal-hutchinson-18696919.jpg" class="index-logo" alt="">
-                </figure>
-                <figure>
-                    <img src="library/pexels-jamaal-hutchinson-18696919.jpg" class="index-logo" alt="">
-                </figure>
-            </div>
-        </section>
+            <div class="exercise-container">
+                <h2>HTML Elementos</h2>
 
-        <section class="m_v_container">
-            <h2>Nuestra mision y vision</h2>
-            <div class="mision_vision">
-                <div class="m_v_content" id="mision">
-                    <h2>Misión</h2>
-                    <br><br>
+                <a name="html">HTML Tutorial</a><br>
+                <a name="css">CSS Tutorial</a><br>
+                <a name="xml">XML Tutorial</a><br>
+
+                <p id="demo2"></p>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>HTML Elementos: Enlaces</h2>
+
                     <p>
-                        Proveer soluciones de software de alta calidad que impulsenla productividad y el crecimiento de
-                        nuestros clientes.
-                        Nos comprometemos a entender profundamente las necesidades
-                        de nuestros clientes y a entregar soluciones que sean fáciles
-                        de usar, eficientes y seguras.
+                        <a href="/html/default.asp">HTML</a>
+                        <br>
+                        <a href="/css/default.asp">CSS</a>
                     </p>
+
+                    <p id="demo3"></p>
                 </div>
-                <div class="m_v_content" id="vision">
-                    <h2>Visión</h2>
-                    <br><br>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>HTML Elementos: Formularios</h2>
+
+                    <form action="">
+                        Nombre:
+                        <input type="text" name="fname" value="Donald">
+                        <button class="button" type="submit" value="Submit">
+                    </form>
+
+                    <p id="demo4"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <h2>HTML Elementos: Imagenes</h2>
+
+                    <img src="../Primera Practica/library/pexels-altamar-20117149.jpg" width="400">
+                    <img src="../Primera Practica/library/pexels-altamar-20117149.jpg" width="400">
+
+                    <p id="demo5"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form>
+                        <input type="button" id="btn01" value="OK">
+                    </form>
+
+                    <p>Click para "Deshabilitar" boton</p>
+
+                    <button class="button" onclick="disableElement()">Deshabilitar</button>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form id="frm1" action="/action_page.php">
+                        <button id="btn1" name="subject" type="submit" value="fav_HTML">HTML</button>
+                        <button id="btn2" name="subject" type="submit" value="fav_CSS">CSS</button>
+                    </form>
+
+                    <p>Click the "Try it" button to return the text on the "HTML" button:</p>
+
+                    <button class="button" onclick="myFunction1()">Try it</button>
+
+                    <p id="demo6"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <form id="frm1" action="/action_page.php">
+                        Nombre: <input type="text" name="fname" value="Donald"><br>
+                        Segundo Nombre: <input type="text" name="lname" value="Duck"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <p>Click "Try it" to display the value of each element in the form.</p>
+
+                    <button class="button" onclick="myFunction2()">Try it</button>
+
+                    <p id="demo7"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <p><a id="myAnchor" href="https://www.w3schools.com/">W3Schools</a></p>
+
+                    <p>Click the button to display the value of the href attribute of the link above.</p>
+
+                    <button class="button" onclick="myFunction3()">Try it</button>
+
+                    <p id="demo8"></p>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <iframe id="myframe" src="demo_iframe.html">
+                        <p>Your browser does not support iframes.</p>
+                    </iframe>
+
+                    <p>Click the button to change the background color of the document in the iframe.</p>
+
+                    <p id="demo9"></p>
+
+                    <button class="button" onclick="myFunction4()">Try it</button>
+                </div>
+            </div>
+            <div class="exercise-container">
+                <h2></h2>
+                <div class="exersice-content">
+                    <table id="myTable" border="1">
+                        <tr>
+                            <td>Row1 cell1</td>
+                            <td>Row1 cell2</td>
+                        </tr>
+                        <tr>
+                            <td>Row2 cell1</td>
+                            <td>Row2 cell2</td>
+                        </tr>
+                        <tr>
+                            <td>Row3 cell1</td>
+                            <td>Row3 cell2</td>
+                        </tr>
+                    </table>
+
                     <p>
-                        Ser reconocidos como el proveedor líder de soluciones de
-                        software, destacando por nuestra innovación, calidad y
-                        servicio al cliente. Aspiramos a ser la primera opción
-                        para los clientes en busca de software que les permita
-                        alcanzar sus objetivos de manera más efectiva y eficiente.
+                        <input class="button" type="button" onclick="changeContent('myTable', 0, 0, 'Hello')"
+                            value="Change content">
                     </p>
+
                 </div>
-            </div>
-        </section>
-
-        <section class="js-proyects-container">
-            <div id="js-proyects-titles">
-                <h2>Proyectos de Javascript</h2>
-                <br>
-                <p>Puedes ver los proyectos de java script que actualmente estoy creando, esperando que sean de tu agrado puedes ir a vsistarlos en el apartado de ejercicios</p>
-            </div>
-            <div class="js-proyects-picture">
-                <figure><img src="library/Captura de pantalla 2024-04-14 193954.png" alt="multimedia" id="js-proyects-picture" ></figure>
-            </div>
-        </section>
-
-        <section class="other_products">
-            <div class="ot_pro_content">
-                <h2>Notas de la version 0.1.0 - Bas1C Update</h2>
-                <div class="ot_pro_description">
-                    <h2>Actualización Marzo 2024</h2>
-                    <br>
-                    <p>Tu aplicacion de siempre pero con un nuevo aspecto, en esta actualizacion pensamos en diseño para
-                        que sea mas comodo para ti, conoce los cambios que tenemos en esta version</p>
-                    <br>
-                </div>
-                <h2 class="text_gradient">• Diseño Responsive</h2>
-                <br>
-                <div class="new_content">
-                    <div class="new_description">
-                        Ahora tu aplicacion es responsiva tanto como para dispositivos moviles como para ordenadores
-                        todo estoc con el poder de CSS y el diseño e ingenieria de nosostros a medida de que vayamos
-                        avanzando agregaremos mas contenido novedoso, estate atento a nuestra pagina web oficial y aqui,
-                        a continuaciion se mostrara de manera detallada que hay de nuevo en esta version:
-
-                        <ul style="padding: 20px 0;">
-                            <li>– Responsivo para dispositivos celulares</li>
-                            <br>
-                            <li>– Responsivo para televisores con resoluciones 4k</li>
-                            <br>
-                            <li>– Responsivo para tabletas</li>
-                            <br>
-                            <li>– los contenedores no se deforman</li>
-                            <br>
-                            <li>– No hay sobreposicion de imagenes</li>
-                            <br>
-                            <li>– En vista movil las imagenes se alinean una tra otra evitando errores de resolucion
-                            </li>
-                            <br>
-                            <li>– Se mantiene estructura y orden del contenido</li>
-                        </ul>
-                    </div>
-                    <div class="new_picture">
-                        <figure>
-                            <img src="library/Captura de pantalla_27-3-2024_203955_127.0.0.1.jpeg" width="550px"
-                                style="border-radius: 10px; width: 100%;" alt="">
-                        </figure>
-                    </div>
-                </div>
-
-                <a href="https://beofalejandro.github.io/ESCALIA/about.html">
-                    <button id="ca-link-button">Conoce mas de <b>ESCALIA Studios</b></button>
-                </a>
-            </div>
-        </section>
-
-        <section class="gios_content">
-            <div class="container">
-                <h1>Contactanos</h1>
-                <form id="reservation-form">
-                    <label for="band-name">Nombre:</label>
-                    <input type="text" id="band-name" required>
-                    <label for="event-date">Fecha requerida:</label>
-                    <input type="date" id="event-date" required>
-                    <label for="contact-email">Correo de Contacto:</label>
-                    <input type="email" id="contact-email" required>
-                    <label for="additional-comments">Comentarios Adicionales:</label>
-                    <textarea id="additional-comments" rows="4"></textarea>
-                    <button class="button" type="submit">Contactar Ahora</button>
-                </form>
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer">
+    <footer>
         <div class="about-me">
             <div class="media-links">
                 <div class="social-link">
@@ -205,12 +215,12 @@
             </figure>
         </div>
         <div class="credits">
-            <p><b>ESCALIA Studios</b> - All Rights Reserved, ESCALIA and CA are trademarks by ESCALIA Software</p>
+            <p>ESCALIA Studios - All Rights Reserved</p>
         </div>
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="scripts/index.js"></script>
+    <script src="scripts/exercise.js"></script>
 </body>
 
 </html>
